@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+:root{
+    --btn-color: #0061fe;
+}
+
+
+header{
+
+    .header-nav{
+        width: 100%;
+        min-width: 1200px;
+        min-height: 80px;
+    }
+
+    .nav{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    div ul{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .btn{
+        background-color:var(--btn-color) ;
+        color: white;
+        padding: 0.5rem;
+        border: none;
+    }
+}
