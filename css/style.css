@@ -92,6 +92,12 @@ header{
 
 main{
 
+    .pos-jumbo{
+        position: relative;
+        left: 0;
+        top: 80px;
+    }
+
     .jumbotron{
         width: 100%;
         background-color: var(--main-bg);
@@ -99,7 +105,7 @@ main{
 
     h1{
         font-size: 4rem;
-        padding: 85px 0;
+        padding-bottom: 4rem;
     }
 
     .row{
