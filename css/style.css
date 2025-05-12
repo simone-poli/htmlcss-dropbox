@@ -227,7 +227,6 @@ main{
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        margin: 3rem 5px;
     }
 
     div.operation h4{
