@@ -18,6 +18,7 @@ ul{
     --btn-color: #0061fe;
     --main-bg: #b4d0e6;
     --card-plan: grey;
+    --btn-dark: black;
 }
 
 .container-lg{
@@ -37,6 +38,15 @@ ul{
     padding: 0.5rem;
     text-decoration: none;
     border: none;
+}
+
+.btn-grey{
+    background-color: #fff;
+    color: var(--btn-dark);
+    border: 1px solid var(--card-plan);
+    text-decoration: none;
+    width: 55%;
+    padding: 0.5rem;
 }
 
 .text-lg{
@@ -86,6 +96,11 @@ ul{
 .col-8{
     width: calc(100%/12*8);
 }
+
+.col-9{
+    width: calc(100%/12*9);
+}
+
 .col-12{
     width: 100%;;
 }
@@ -185,7 +200,7 @@ main{
     }
 
 
-    .plan{
+    .plan,.partner-left{
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -203,4 +218,9 @@ main{
     #card-footer{
         padding: 2rem 1rem;
     }
+
+    .partner-right, .partner-left{
+        margin: 5rem 1rem;
+    }
+
 }
