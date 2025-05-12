@@ -232,4 +232,8 @@ main{
     div.operation h4{
         font-size: 1.2rem;
     }
+
+    #team{
+        margin: 10rem 0;
+    }
 }
