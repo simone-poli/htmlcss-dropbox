@@ -223,4 +223,14 @@ main{
         margin: 5rem 1rem;
     }
 
+    .operation{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 3rem 5px;
+    }
+
+    div.operation h4{
+        font-size: 1.2rem;
+    }
 }
